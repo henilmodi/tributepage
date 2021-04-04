@@ -1,0 +1,257 @@
+/* :root{
+font-family: 'Roboto', sans-serif 3,4,5;
+font-family: 'Ubuntu', sans-serif 3,4;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#main{
+    /* max-width: 960px; */
+   background-color: #eee;
+   margin: 0 auto;
+   border: 5px solid white;
+   margin: 1em 0.5em ;
+   border-radius: 10px;
+}
+
+#title{
+   font-family: 'Ubuntu', sans-serif;
+   margin-top: 1em;
+   text-align: center;
+}
+
+.title-heading{
+    font-size: 4rem;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+
+#img-div{
+    text-align: center;
+}
+
+#image{
+    padding: 1em;
+    /* border: 10px solid white; */
+}
+
+.image{
+    max-width: 90%;
+    height: auto;
+    border: 10px solid white;
+}
+
+#img-caption{
+    margin: 0.3em 0em;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#tribute-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tribute-info--heading{
+    margin: 2em 0em 1em 0em;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.info li:not(:last-child){
+    margin-bottom: 1em;
+}
+
+.info{
+    max-width: 600px;
+    text-align: justify;
+}
+
+#blockquote{
+    font-style: italic;
+}
+
+.w-100{
+    border: 10px solid white;
+    margin: 0 auto;
+    max-width: 90%;
+    height: auto;
+}
+
+.footer-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+
+@media screen and (max-width: 460px){
+    #main {
+        margin: 0 auto;
+        padding: 0.6em;
+        border: 0px;
+        border-radius: 0px;
+    }
+
+    .title-heading{
+       font-size: 3rem;
+    }
+
+    .w-100{
+      border: 5px solid white;
+      max-width: 100%;
+    /* height: auto; */
+    }
+
+    #img-caption{
+       font-size: 2rem;
+       margin: 0.7em 0em;
+       font-weight: bold;
+    }
+
+    #tribute-info--heading{
+        margin: 1.3em 0em 1em 0em;
+        font-size: 1.9rem;
+        text-align: center;
+    }
+
+    #image{
+        padding: 0em;
+    }
+
+    .info{
+        font-size: 1.88rem;
+        padding: 0em 0.8em 0em 1.12em;
+    }
+}
+
+@media only screen and (min-width: 461px){
+    #main {
+        border: 0px;
+        border-radius: 0px;
+        margin: 0px;
+        margin: 0 auto;
+        padding: 0.6em;
+    }
+
+    #title{
+        margin: 0px;
+    }
+
+    .title-heading{
+        font-size: 3.5rem;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+
+    #image{
+        padding: 0px;
+    }
+
+    .w-100{
+        max-width: 100%;
+    }
+
+    #img-caption{
+        font-size: 2.3rem;;
+    }
+}
+
+@media only screen and (min-width: 681px) {
+    #main{
+        /* max-width: 960px; */
+       background-color: #eee;
+       margin: 0em 0.5em ;
+    }
+    
+    #title{
+       font-family: 'Ubuntu', sans-serif;
+       margin-top: 1em;
+       text-align: center;
+    }
+    
+    .title-heading{
+        font-size: 4rem;
+        letter-spacing: 1.5px;
+        font-weight: bold;
+        padding: 0em;
+x    }
+    
+    #img-div{
+        text-align: center;
+    }
+    
+    #image{
+        padding: 0.5em;
+        /* border: 10px solid white; */
+    }
+    
+    .image{
+        max-width: 90%;
+        height: auto;
+        border: 10px solid white;
+    }
+    
+    #img-caption{
+        margin: 0.3em 0em;
+        font-size: 2.92rem;
+        font-weight: bold;
+    }
+    
+    #tribute-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #tribute-info--heading{
+        margin: 2em 0em 1em 0em;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    
+    .info li:not(:last-child){
+        margin-bottom: 1em;
+    }
+    
+    .info{
+        max-width: 600px;
+        text-align: justify;
+        font-size: 2.25rem;
+    }
+    
+    #blockquote{
+        font-style: italic;
+    }
+    
+    .w-100{
+        border: 10px solid white;
+        margin: 0 auto;
+        max-width: 90%;
+        height: auto;
+    }
+    
+    .footer-heading{
+        text-align: center;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+}
