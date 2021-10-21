@@ -25,12 +25,12 @@ body{
    margin: 0 auto;
    border: 5px solid white;
    margin: 1em 0.5em ;
-   border-radius: 10px;
+   border-radius: 11px;
 }
 
 #title{
    font-family: 'Ubuntu', sans-serif;
-   margin-top: 1em;
+   margin-top: 1.1em;
    text-align: center;
 }
 
@@ -70,7 +70,7 @@ body{
 
 #tribute-info--heading{
     margin: 2em 0em 1em 0em;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     font-weight: bold;
 }
 
